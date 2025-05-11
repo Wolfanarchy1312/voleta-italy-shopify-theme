@@ -1,0 +1,48 @@
+/* Voleta.it Theme CSS Variables */
+:root {
+  --color-primary: #FFB199;
+  --color-secondary: #BEE3E3;
+  --color-cream: #FFF5E8;
+  --color-brown: #534944;
+  --color-sage: #BEE7C9;
+  --color-white: #fff;
+
+  --font-heading: 'Outfit', 'Quicksand', 'Nunito', sans-serif;
+  --font-body: 'Nunito', 'Inter', 'Outfit', sans-serif;
+
+  --border-radius: 16px;
+  --container-width: 1200px;
+  --container-padding: 24px;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-brown);
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 17px;
+  min-height: 100vh;
+}
+
+strong, h1, h2, h3, h4, h5 {
+  color: var(--color-brown);
+  font-family: var(--font-heading);
+  font-weight: 700;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+}
+
+button, .btn, input, .input {
+  border-radius: var(--border-radius);
+}

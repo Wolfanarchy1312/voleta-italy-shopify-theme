@@ -1,0 +1,115 @@
+[
+  {
+    "name": "Theme settings",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "logo_light",
+        "label": "Logo (light/transparent)"
+      },
+      {
+        "type": "image_picker",
+        "id": "logo_sticky",
+        "label": "Logo (sticky/white header)"
+      },
+      {
+        "type": "range",
+        "id": "logo_width",
+        "label": "Logo width (px)",
+        "min": 50,
+        "max": 300,
+        "step": 1,
+        "default": 120
+      },
+      {
+        "type": "font_picker",
+        "id": "heading_font",
+        "label": "Headings Font"
+      },
+      {
+        "type": "font_picker",
+        "id": "body_font",
+        "label": "Body Font"
+      },
+      {
+        "type": "color",
+        "id": "color_primary",
+        "label": "Primary (Peach)",
+        "default": "#FFB199"
+      },
+      {
+        "type": "color",
+        "id": "color_secondary",
+        "label": "Secondary (Powder Blue)",
+        "default": "#BEE3E3"
+      },
+      {
+        "type": "color",
+        "id": "color_cream",
+        "label": "Cream",
+        "default": "#FFF5E8"
+      },
+      {
+        "type": "color",
+        "id": "color_brown",
+        "label": "Brown",
+        "default": "#534944"
+      },
+      {
+        "type": "color",
+        "id": "color_sage",
+        "label": "Sage (optional)",
+        "default": "#BEE7C9"
+      },
+      {
+        "type": "range",
+        "id": "border_radius",
+        "label": "Global border radius",
+        "min": 0,
+        "max": 50,
+        "step": 1,
+        "default": 16
+      },
+      {
+        "type": "range",
+        "id": "max_container_width",
+        "label": "Max container width (px)",
+        "min": 960,
+        "max": 1440,
+        "step": 10,
+        "default": 1200
+      },
+      {
+        "type": "range",
+        "id": "container_padding",
+        "label": "Container padding (px)",
+        "min": 0,
+        "max": 48,
+        "step": 4,
+        "default": 24
+      },
+      {
+        "type": "checkbox",
+        "id": "transparent_header_home",
+        "label": "Transparent header only on homepage",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "solid_header_product",
+        "label": "Solid header on product pages",
+        "default": true
+      },
+      {
+        "type": "header",
+        "content": "Section Toggles"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_header",
+        "label": "Enable header",
+        "default": true
+      }
+    ]
+  }
+]
